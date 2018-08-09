@@ -1,13 +1,17 @@
+body {
+  background-image: url("ASSETS/IMAGES/BACKGROUNDSAtelierMakeMake_background.jpg");
+}
+
 h1 {
-color: orange;
-text-align: center;
+  color: orange;
+  text-align: center;
 }
 
 #box-one {
-background-color: gray;
+  background-color: gray;
 }
 
 #box-two {
-background-color: yellow;
-padding: 10px;
+  background-color: yellow;
+  padding: 10px;
 }
