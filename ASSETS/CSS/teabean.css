@@ -15,32 +15,91 @@ Margin - Border - Padding - CONTENT - Padding - Border - Margin
 
 */
 
+/* Style for everything */
+*{
+  margin:  0;
+  padding: 0;
+}
 
+a {
 
+}
+
+a:link {
+
+}
+
+a:visited {
+
+}
+
+/* a:hover must come after a:link and a:visited */
+a:hover {
+
+}
+
+/* a:active must come after a:hover */
+a:active {
+
+}
+
+.button {
+  margin-top: 35px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #FFFFFF;
+  background-color: rgba(255,255,255,0.2);
+  padding: 5px 5px;
+  cursor: pointer;
+  font-family: Ubuntu;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
 /* Style for body element (that wraps everything else) */
 body {
   background-color: #f4f4f4;
   color: #555555;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Ubuntu, Helvetica, sans-serif;
   font-size: 12px;
   font-weight: normal;
   line-height:1.6em;
 }
 
-.container{
-  width: 80%;
-  margin: auto;
+/* Container class */
+.welcome{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+  padding: 30px;
+  font-family: Ubuntu;
+  text-align: center;
+  background-color: rgba(0,0,0,0.6);
+  width: 75%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 p {
   margin-top: 5px;
   margin-left: 10px; margin-right: 10px;
   margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: regular;
+  font-family: Ubuntu;
+  color: #FFFFFF;
 }
 
 /* (1) Primary header */
 h1 {
-  color: orange;
+  margin: 20px;
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFFFFF;
   text-align: center;
 }
 
