@@ -43,19 +43,29 @@ a:active {
 
 }
 
+.spacer20 {
+  margin-right: auto;
+  margin-left:  auto;
+  height: 20px;
+  width: 10%;
+}
+
+/* Style for button links */
 .button {
   margin-top: 35px;
   border-style: solid;
   border-width: 1px;
   border-color: #FFFFFF;
   background-color: rgba(255,255,255,0.2);
-  padding: 5px 5px;
+  padding: 10px 25px;
   cursor: pointer;
   font-family: Ubuntu;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: bold;
   color: #FFFFFF;
   text-decoration: none;
 }
+
 /* Style for body element (that wraps everything else) */
 body {
   background-color: #f4f4f4;
@@ -87,7 +97,7 @@ p {
   margin-top: 5px;
   margin-left: 10px; margin-right: 10px;
   margin-bottom: 5px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: regular;
   font-family: Ubuntu;
   color: #FFFFFF;
